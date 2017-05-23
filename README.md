@@ -1,3 +1,29 @@
+## Truffle installation
+
+Tested with:
+
+  * Node v7.10.0
+  * npm 4.2.0
+
+Install the dependencies:
+
+```
+npm install
+```
+
+Start a `testrpc` instance and leave it running:
+
+```
+npm run testrpc
+```
+
+In another terminal, run:
+
+```
+npm test
+```
+
+
 Tests have shown that initial **id.js** has several issues:
  - reference error
  - new very expensive resources with same ID get duplicated in memory instead of referencing to one resource

@@ -1,0 +1,26 @@
+{
+  "name": "test-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "clean": "rm -rf build/*",
+    "testrpc": "testrpc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dworznik/test-assignment.git"
+  },
+  "author": "",
+  "license": "",
+  "homepage": "https://github.com/dworznik/test-assignment",
+  "devDependencies": {
+    "ethereumjs-testrpc": "^3.0.5",
+    "truffle": "^3.2.4"
+  }
+}
